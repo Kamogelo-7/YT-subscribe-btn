@@ -69,6 +69,30 @@ main .container .channel-info {
   background-color: #a00;
 }
 
+.imageUpload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+.imageUpload .center {
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #2a2a2a;
+}
+.imageUpload .center input {
+  color: white;
+  font-weight: bold;
+  background-color: #171515;
+  border-radius: 10px;
+}
+.imageUpload .center #uploadBtn {
+  margin-left: 1rem;
+  background-color: gray;
+  border-style: none;
+  padding: 0.55rem;
+}
+
 .subscribed {
   background-color: #555;
   color: white;
