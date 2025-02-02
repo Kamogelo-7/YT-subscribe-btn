@@ -46,7 +46,7 @@ const loadImagesFromJSON = async () => {
         // Check if no image is uploaded
         randomizeImage(images);
       }
-    }, 5000); // 10 seconds
+    }, 5000); // 5 seconds
   } catch (error) {
     console.error("Error loading image data:", error);
   }
