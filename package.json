@@ -1,0 +1,15 @@
+{
+  "name": "yt-subcribebtn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch --no-source-map styles/main.scss index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.83.4"
+  }
+}
